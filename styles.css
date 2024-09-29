@@ -1,0 +1,23 @@
+* {
+    background-color: rgb(175, 182, 174);
+}
+
+
+.carousel-container {
+    overflow: hidden;
+    width: 300px;
+}
+
+.img-container {
+    display: flex;
+    transition: transform .8s;
+    transform: translateX(0px);
+}
+
+.container {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
